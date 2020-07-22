@@ -1,0 +1,42 @@
+#header .headersize{
+    display: block;
+}
+.logo {
+    text-align: center;
+}
+.nav ul {
+    justify-content: center;
+}
+
+.whatsize {
+    display: block;
+}
+
+#who{
+    display: block;
+}
+
+#client .clientslogo img{
+    display: inline-block;
+}
+
+
+#client .clientslogo{
+    width: 100%;
+    justify-content: center;  
+}
+
+#client .clientslogo div img{
+    width: 100%;
+
+}
+
+#contact {
+    display: block;
+}
+#contact .maps {
+    display: block;
+    width: 100vw;
+    height: 400px;
+}
+

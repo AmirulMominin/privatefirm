@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.bg-primary {
+    background-color: green;
+}
+.bg-light {
+    background-color: #F4F4F4;
+}
+.bg-dark {
+    background-color: #333;
+}
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    color: #fff;
+}
+p {
+    font-size: 1.3rem;
+}
+h1, h2, h3 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.primary-text {
+    color: green;
+}
+.lead {
+    font-size: 1.4rem;
+}
+/* section- Header */
+#header {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.black {
+    color: black;
+}
+.headersize {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    background-color: #333
+}
+
+.logo {
+    font-size: 1.5rem;
+    padding: 15px 0;
+}
+.nav ul{
+    display: flex;
+    
+}
+.nav ul li {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.nav ul li:hover {
+    background-color: red;
+    border-radius: 5px;
+}
+
+/* Showcase Section */
+
+#showcase {
+    height: 100vh;
+    background: url(./img/showcase.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.showcasesize {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.showcasesize h1 {
+    font-size: 4rem;
+}
+
+.showcasesize a {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: green;
+    margin-top: 30px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+/* What Section */
+
+#what h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+#what .whatsize h2{
+    font-size: 2rem;
+}
+#what {
+    padding-bottom: 40px;
+}
+
+.whatsize {
+display: flex;
+width: 80%;
+margin: 0 auto;
+text-align: center;
+}
+#what .item {
+    padding: 10px;
+    flex: 1;
+}
+.item .fas{
+    background-color: green;
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 2.0rem;
+}
+
+/* Who We are Section */
+
+#who{
+display: flex;
+    
+}
+#who h2 {
+    font-size: 3rem;
+}
+#who .image {
+    flex: 1;
+    background: url(./img/people1.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #333;
+    
+}
+#who .whoweare {
+    flex: 1;
+    padding: 0 20px;
+    padding-bottom: 30px;
+}
+#who ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid gray;
+}
+/* clients */
+
+#client .clientslogo{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+
+    
+}
+
+#client .clientslogo img{
+    display: block;
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+}
+
+
+#client h1{
+    text-align: center;
+}
+#client {
+    margin-bottom: 50px;
+}
+/* Contact section */
+.contactus{
+    padding: 20px;
+}
+label {
+    display: block;
+}
+input, textarea{
+    width: 100%;
+    font-size: 1.3rem;
+}
+input:focus, textarea:focus{
+    outline: none !important;
+}
+button[type="submit"]{
+    font-size: 1rem;
+    padding: 4px;
+    width: 100%;
+    background: #333;
+    color: white;
+    border: 0;
+}
+#contact {
+    display: flex;
+}
+.contactus{
+    flex: 1;
+}
+.maps{
+    flex: 2;
+}
+.maps iframe {
+    
+    height:100%;
+    width:100%;
+    
+}
+/* footer */
+#footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+}
